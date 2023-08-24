@@ -9,20 +9,20 @@
 }
 
 /*Importar tipografía de google fonts vía @import (sin etiquetas <style>)*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
 
 /*Esto me permite utilizar la tipografía en todo el contenido de body. Como standard vamos a usar la 100*/
 
 body {
     /*Declaración de tipografía*/
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Comic Neue', cursive;
     /*Declaración de peso de Tipografía*/
-    font-weight: 900;
+    font-weight: 400;
     /*Declaración de color de fondo del body*/
-    background-color: rgb(0, 60, 255);
+    background-color: black;
     /*Declaración del color de la tipografía en el body*/
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 /*ESTILOS DE CUADRADOS DE COLORES*/
@@ -30,35 +30,35 @@ body {
 /*Este es un id único en el HTML, representado por #nombre*/
 /*Este color está declarado en #Hex*/
 #color1 {
-    background-color: #4099ff;
+    background-color: #ae00ff;
 }
 /*Este color está declarado con una palabra clave*/
 #color2 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(3, 255, 255);
 }
 /*Este color está declarado con valores RGB (XX, XX, XX)*/
 #color3 {
-    background-color: #f0e008;
+    background-color: rgb(255, 208, 0);
 }
 /*Este color está declarado en RGB, y tiene transparencia de 0.705*/
 #color4 {
-    background-color: #3191ff;
+    background-color: rgb(189, 139, 255);
 }
 
 /*ESTILOS DE BARRA DE NAVEGACIÓN*/
 nav {
     /*Color de texto declarado en #Hex*/
-    color: #ffffff;
+    color: #89ffef;
 }
 
 /*ESTILOS LINKS EN BARRA DE NAVEGACIÓN*/
 nav a{
     /*Color te texto*/
-    color: #1900ff;
+    color: #b3ffef;
     /*Decoración de texto: subrayado | tachado | etc.*/
     text-decoration: none;
     /*Tipografía*/
-    font-family: 'Poppins', sans-serif;
+    font-family:  'Comic Neue', cursive;
     /*Peso de la tipografía (tiene que estar linkeada la variable)*/
     font-weight: 700;
     /*Espaciado interno*/
@@ -72,7 +72,7 @@ nav a{
 /*Cambios al pasar el mouse sobre el elemento (hover)*/
 nav a:hover{
     /*Cambio de color*/
-    color: #ffffff;
+    color: #fc0505;
 }
 
 /*ESTILOS LOGO BARRA DE NAVEGACIÓN*/
@@ -89,7 +89,7 @@ nav a:hover{
 /*ESTILOS DE BANNER*/
 .banner {
     /*Imagen de fondo*/
-    background-image: url(media/20221219_103056.jpg);
+    background-image: url(media/fondo.jpg);
     /*Posición del fondo x|y*/
     background-position: center bottom;
     /*¿Repetir fondo? (tramas)*/
@@ -110,8 +110,7 @@ nav a:hover{
     /*Transformar texto a mayúsuclas*/
     text-transform: capitalize;
     /*Sombra: offset-x | offset-y | blur-radius | color */
-  
-    text-shadow: 2px 2px 3px #003b7e;
+    text-shadow: 2px 2px 3px black;
     /*Espaciado interior*/
     padding: 0px 0px 100px 0px;
 
@@ -120,7 +119,7 @@ nav a:hover{
 /*ESTILOS DEL BOTON*/
 .btn {
     /*Color de fondo*/
-    background-color: rgba(25, 0, 255, 0.664);
+    background-color: rgba(255, 0, 0, 0.664);
     /*Color de tipografía*/
     color: white;
     /*Decoracion del texto*/
@@ -142,7 +141,7 @@ nav a:hover{
 /*Al pasar el mouse por arriba*/
 .btn:hover {
     /*Cambio de color de fondo*/
-    background-color: rgb(0, 26, 255);
+    background-color: rgb(255, 0, 0);
 }
 
 /*ESTRUCTURA de la plantilla | Tocar bajo su propio riesgo*/
